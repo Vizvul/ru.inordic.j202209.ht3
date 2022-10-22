@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LassonPobit {
 
     private static boolean errorOperation = false;
-
+// add newLine
 
     public static String lassonPobit() {
         String result = "";

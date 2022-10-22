@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class LassonMath {
-
+    // add newLine
     private boolean errorOperation;
 
     public String lassonMath() {
