@@ -4,30 +4,17 @@ public class Main {
     // add newLine
     public static void main(String[] args) {
 
-        int a;
-        float af;
-        boolean ab = true;
-
-        int b;
-        float bf;
-        boolean bb = false;
-
         String result = "N/A";
         boolean testOperetion = true;
         int operations;
-
         String[] resultMassiv = new String[5];
+
 
         Scanner sc = new Scanner(System.in);
 
-
-        // Why only 3 operation in for????
-
         for (int j = 0; j < 5; j ++) {
-
             System.out.println("Введите код операции (0 - математические, 1 - логические, 2 - побитовые, 3 - операции сдвига, 4 - работы с float(только математические), 5 - boolean, другое число прирывает работу программы");
             operations = sc.nextInt();
-
             // Математические операции
 
             switch (operations) {
