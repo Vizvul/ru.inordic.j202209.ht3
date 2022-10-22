@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class LessonDvig {
-
+// add newLine
     private boolean errorOperation = false;
 
     public String lessonDvig() {

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class LessonLogical {
-
+    // add newLine
     private boolean errorOperation = false;
 
     public static String lessonLogical() {
